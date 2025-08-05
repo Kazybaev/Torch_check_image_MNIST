@@ -87,7 +87,7 @@ image_dd = [
     "Bag",
     "Ankle boot"
 ]
-
+# uvicorn main:app --reload
 app = FastAPI()
 
 @app.post("/predict")
