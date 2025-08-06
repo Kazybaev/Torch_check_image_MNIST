@@ -7,7 +7,7 @@ from PIL import Image                            # Работа с изобра�
 import io                                        # Работа с байтами (нужно для `UploadFile.read()`)
 
 
-#
+#   dataset ________ normalize ____________
 # class CheckImage(nn.Module):
 #   def __init__(self):
 #     super().__init__()
