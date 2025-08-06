@@ -8,6 +8,8 @@ import io                                        # Работа с байтам�
 
 
 #   dataset ________ normalize ____________
+
+
 # class CheckImage(nn.Module):
 #   def __init__(self):
 #     super().__init__()
