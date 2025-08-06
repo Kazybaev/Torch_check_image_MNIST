@@ -1,10 +1,10 @@
-from fastapi import FastAPI, File, UploadFile    # 📦 FastAPI: создание API, загрузка файлов
-from fastapi.responses import JSONResponse       # 📤 Возврат ответа в формате JSON
-import torch                                     # 🔥 PyTorch: основной модуль
-import torch.nn as nn                            # 🧠 Модули нейросети (слои, модели)
-import torchvision.transforms as transforms      # 🎨 Преобразования изображений (resize, toTensor и т.д.)
-from PIL import Image                            # 🖼️ Работа с изображениями (открытие, преобразование)
-import io                                        # 🧾 Работа с байтами (нужно для `UploadFile.read()`)
+from fastapi import FastAPI, File, UploadFile    # FastAPI: создание API, загрузка файлов
+from fastapi.responses import JSONResponse       # Возврат ответа в формате JSON
+import torch                                     # PyTorch: основной модуль
+import torch.nn as nn                            # Модули нейросети (слои, модели)
+import torchvision.transforms as transforms      # Преобразования изображений (resize, toTensor и т.д.)
+from PIL import Image                            # Работа с изображениями (открытие, преобразование)
+import io                                        # Работа с байтами (нужно для `UploadFile.read()`)
 
 
 #
