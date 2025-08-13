@@ -6,7 +6,7 @@ import torchvision.transforms as transforms      # Преобразования 
 from PIL import Image                            # Работа с изображениями (открытие, преобразование)
 import io                                        # Работа с байтами (нужно для `UploadFile.read()`)
 
-# .
+# 
 #   dataset ________ normalize ____________
 
 
